@@ -1,0 +1,15 @@
+.button-gradient{
+    padding: 25px 54px;
+    border-radius: 40px;
+    background: $color-button-gradient;
+    color: $color-content-dark;
+    @include font($size: 20px, $height: 20px);
+}
+.button-gradient-border{
+    padding: 20px 49px;
+    border-radius: 40px;
+    border: 5px solid red;
+    color: white;
+    @include font($size: 20px, $height: 20px);
+    box-sizing: border-box;
+}

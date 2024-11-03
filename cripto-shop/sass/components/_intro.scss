@@ -1,0 +1,27 @@
+.intro{
+    background-color: $color-content-dark;
+    height: 680px;
+}
+.wrapper__intro{
+    background-image: url(/lessons/cripto-shop/assets/img/stickers_hero.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 160px;
+}
+.intro__content{
+    width: 621px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.intro__title{
+    @include font($family:'Russo One', $size: 70px, $weight: 400, $height: 84.35px);
+    color: white;
+    margin-bottom: 36px;
+}
+.intro__buttons{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
