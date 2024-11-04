@@ -459,7 +459,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 32px;
+  padding: 32px 57px 32px 32px;
   border-radius: 40px;
   background-color: #EDEDF2;
 }
@@ -584,13 +584,13 @@ a {
   display: flex;
   align-items: center;
   width: 100%;
+  padding: 15px 0;
 }
 
 .nav {
   display: flex;
   align-items: flex-start;
   gap: 32px;
-  padding: 20px 0;
   margin-right: auto;
 }
 
@@ -603,7 +603,7 @@ a {
 }
 
 .nav__item {
-  padding: 4px 10px;
+  padding: 2.8px 8.8px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -617,7 +617,7 @@ a {
 }
 
 .navigation__button {
-  padding: 17px 43px;
+  padding: 17px 31.5px;
   border-radius: 77px;
   font-family: "Muller";
   font-size: 16px;
@@ -704,7 +704,7 @@ a {
 .bet {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 32px;
   width: 100%;
 }
 
@@ -717,6 +717,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: 32px;
 }
 
