@@ -1,0 +1,43 @@
+.timer{
+    padding: 32px;
+    background-color: $color-content-dark;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.timer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 44px;
+
+}
+.timer__title{
+    color: white;
+    @include font($size: 20px, $height: 20px);
+    margin-bottom: 16px;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.clock__item{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+
+}
+.clock__number{
+    color: white;
+    @include font($size: 48px, $height: 48px)
+}
+.clock__text{
+    color: white;
+    @include font($size: 20px, $height: 20px)
+
+}
+.timer__img{
+}

@@ -1,0 +1,16 @@
+.user{
+    padding: 11px 16px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    background-color: $color-content-bg-light;
+}
+.user__img{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+.user__name{
+    @include font($size: 20px, $height: 20x);
+    color: $color-content-dark;
+}
