@@ -565,10 +565,87 @@ a {
   color: #07060B;
 }
 
+.card {
+  width: 296px;
+}
+
+.card__top {
+  padding: 7px 68px;
+  background-color: #EDEDF2;
+  border-radius: 40px 40px 0 0;
+}
+
+.card__img {
+  width: 160px;
+  height: 160px;
+}
+
+.card__bottom {
+  background-color: #07060B;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  border-radius: 0 0 40px 40px;
+}
+
+.card__nickname {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nickname__img {
+  width: 24px;
+  height: 24px;
+}
+
+.nickname_name {
+  color: white;
+  font-family: "Muller";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.card__name {
+  color: white;
+  font-family: "Muller";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.card__price {
+  color: #46F4DB;
+  font-family: "Muller";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.card__timer {
+  color: #95959D;
+  font-family: "Muller";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
 .wrapper {
   max-width: 1920px;
   padding: 0 320px;
   margin: auto;
+}
+
+.layout__4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
 }
 
 .logo {
