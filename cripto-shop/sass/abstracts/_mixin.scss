@@ -1,0 +1,18 @@
+@mixin font($family: 'Muller', $size, $weight: 700, $height) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+}
+
+@mixin media-loptop {
+    @media (max-width: $content-width) {@content;}
+}
+
+@mixin media-tablet {
+    @media (max-width: $tablet-width) {@content;}
+}
+
+@mixin media-mobile{
+    @media (max-width: $mobile-width) {@content;}
+}
