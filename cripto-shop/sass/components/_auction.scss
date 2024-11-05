@@ -1,8 +1,16 @@
 .wrapper__auction{
+    
+}
+.auction__container{
+    width: 100%;
+    max-width: 1280px;
+    height: 1708px;
+    margin: auto;
     padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 90px;
 }
 .auction__title-container{
     display: flex;
@@ -53,4 +61,10 @@
     display: flex;
     gap: 32px;
 
+}
+.auctions__others{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }

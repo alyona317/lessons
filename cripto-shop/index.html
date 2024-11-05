@@ -26,187 +26,297 @@
             </div>
         </div>
     </header>
-    <body>
+    <main>
         <section class="intro">
             <div class="wrapper wrapper__intro">
-                <div class="intro__content">
-                    <h1 class="intro__title">Площадка для реализации криптостикеров</h1>
-                    <div class="intro__buttons">
-                        <a class="button-gradient" href="">Купить</a>
-                        <a class="button-gradient-border" href="">Стать автором</a>
+                <div class="intro__container">
+                    <div class="intro__content">
+                        <h1 class="intro__title">Площадка для реализации криптостикеров</h1>
+                        <div class="intro__buttons">
+                            <a class="button-gradient" href="">Купить</a>
+                            <a class="button-gradient-border" href="">Стать автором</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="auction">
             <div class="wrapper wrapper__auction">
-                <div class="auction__title-container">
-                    <h2 class="auction__title">Аукцион</h2>
-                    <div class="tag">
-                        <img src="./assets/img/Ellipse 1.png" alt="">
-                        <span class="tag__text">Live auction</span>
-                    </div>
-                </div>
-                <div class="bet">
-                    <img class="bet__img" src="./assets/img/Witcher-3 1.png" alt="">
-                    <div class="bet__content">
-                        <div class="user">
-                            <img class="user__img" src="./assets/img/Ellipse 2.png" alt="">
-                            <span class="user__name">Serge_VM222</span>
-                        </div>
-                        <h3 class="bet__name">Witcherrr_3 (xml_t5)</h3>
-                        <div class="bet__timer-price">
-                            <div class="price">
-                                <span class="price__text">Ставка:</span>
-                                <span class="price__cripto">0.10 ETH</span>
-                                <span class="price__converter">$351.24</span>
+                <div class="auction__container">
+                    <div class="auction__current">
+                        <div class="auction__title-container">
+                            <h2 class="auction__title">Аукцион</h2>
+                            <div class="tag">
+                                <img src="./assets/img/Ellipse 1.png" alt="">
+                                <span class="tag__text">Live auction</span>
                             </div>
-                            <div class="timer">
-                                <div class="timer__container">
-                                    <span class="timer__title">Окончание через:</span>
-                                    <div class="clock">
-                                        <div class="clock__item">
-                                            <span class="clock__number">01</span>
-                                            <span class="clock__text">Час</span>
-                                        </div>
-                                        <div class="clock__item">
-                                            <span class="clock__number">48</span>
-                                            <span class="clock__text">Мин</span>
-                                        </div>
-                                        <div class="clock__item">
-                                            <span class="clock__number">47</span>
-                                            <span class="clock__text">Сек</span>
-                                        </div>
+                        </div>
+                        <div class="bet">
+                            <img class="bet__img" src="./assets/img/Witcher-3 1.png" alt="">
+                            <div class="bet__content">
+                                <div class="user">
+                                    <img class="user__img" src="./assets/img/Ellipse 2.png" alt="">
+                                    <span class="user__name">Serge_VM222</span>
+                                </div>
+                                <h3 class="bet__name">Witcherrr_3 (xml_t5)</h3>
+                                <div class="bet__timer-price">
+                                    <div class="price">
+                                        <span class="price__text">Ставка:</span>
+                                        <span class="price__cripto">0.10 ETH</span>
+                                        <span class="price__converter">$351.24</span>
                                     </div>
+                                    <div class="timer">
+                                        <div class="timer__container">
+                                            <span class="timer__title">Окончание через:</span>
+                                            <div class="clock">
+                                                <div class="clock__item">
+                                                    <span class="clock__number">01</span>
+                                                    <span class="clock__text">Час</span>
+                                                </div>
+                                                <div class="clock__item">
+                                                    <span class="clock__number">48</span>
+                                                    <span class="clock__text">Мин</span>
+                                                </div>
+                                                <div class="clock__item">
+                                                    <span class="clock__number">47</span>
+                                                    <span class="clock__text">Сек</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img class="timer__img" src="./assets/svg/alarm-clock.svg" alt="">
+                                    </div>
+                        
                                 </div>
-                                <img class="timer__img" src="./assets/svg/alarm-clock.svg" alt="">
+                                <a class="button" href="">Сделать ставку</a>
                             </div>
-
                         </div>
-                        <a class="button" href="">Сделать ставку</a>
                     </div>
-                </div>
-                <div class="auctions__others">
-                    <div class="layout__4">
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
+                    <div class="auctions__others">
+                        <div class="layout__4">
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
                                 </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__top">
+                                    <img class="card__img" src="./assets/img/Alien.png" alt="">
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__nickname">
+                                        <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
+                                        <span class="nickname_name">Frank.Nagval</span>
+                                    </div>
+                                    <span class="card__name">Alien (green) e_e</span>
+                                    <span class="card__price">0.02 ETH</span>
+                                    <span class="card__timer">03 часа 25 мин 23 сек</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card__top">
-                                <img class="card__img" src="./assets/img/Alien.png" alt="">
-                            </div>
-                            <div class="card__bottom">
-                                <div class="card__nickname">
-                                    <img src="./assets/img/nickname_img.png" alt="" class="nickname__img">
-                                    <span class="nickname_name">Frank.Nagval</span>
-                                </div>
-                                <span class="card__name">Alien (green) e_e</span>
-                                <span class="card__price">0.02 ETH</span>
-                                <span class="card__timer">03 часа 25 мин 23 сек</span>
-                            </div>
-                        </div>
+                        <a class="button-color-border" href="">Все аукционы</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            
+        <section class="bestsellers">
+            <div class="wrapper wrapper__bestsellers">
+                <div class="bestseller__container">
+                    <div class="bestseller__title">Топ продаж</div>
+                    <div class="layout-2">
+                        <div class="card-bestseller">
+                            <div class="card-bestseller__left">
+                                <img class="card-bestseller__img" src="./assets/img/Holofobia-1 1.png" alt="">
+                            </div>
+                            <div class="card-bestseller__right">
+                                <div class="card-bestseller__user">
+                                    <img class="card-bestseller__user-img" src="./assets/img/user.png" alt="">
+                                    <span class="card-bestseller__user-name">ttgs</span>
+                                </div>
+                                <span class="card-bestseller__name">Holofobia1</span>
+                                <div class="bestseller__price">
+                                    <span class="bestseller__price-cripto">4.70 ETH </span>
+                                    <span class="bestseller__price-converter">($16,873.47)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bestseller">
+                            <div class="card-bestseller__left">
+                                <img class="card-bestseller__img" src="./assets/img/Holofobia-1 1.png" alt="">
+                            </div>
+                            <div class="card-bestseller__right">
+                                <div class="card-bestseller__user">
+                                    <img class="card-bestseller__user-img" src="./assets/img/user.png" alt="">
+                                    <span class="card-bestseller__user-name">ttgs</span>
+                                </div>
+                                <span class="card-bestseller__name">Holofobia1</span>
+                                <div class="bestseller__price">
+                                    <span class="bestseller__price-cripto">4.70 ETH </span>
+                                    <span class="bestseller__price-converter">($16,873.47)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bestseller">
+                            <div class="card-bestseller__left">
+                                <img class="card-bestseller__img" src="./assets/img/Holofobia-1 1.png" alt="">
+                            </div>
+                            <div class="card-bestseller__right">
+                                <div class="card-bestseller__user">
+                                    <img class="card-bestseller__user-img" src="./assets/img/user.png" alt="">
+                                    <span class="card-bestseller__user-name">ttgs</span>
+                                </div>
+                                <span class="card-bestseller__name">Holofobia1</span>
+                                <div class="bestseller__price">
+                                    <span class="bestseller__price-cripto">4.70 ETH </span>
+                                    <span class="bestseller__price-converter">($16,873.47)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bestseller">
+                            <div class="card-bestseller__left">
+                                <img class="card-bestseller__img" src="./assets/img/Holofobia-1 1.png" alt="">
+                            </div>
+                            <div class="card-bestseller__right">
+                                <div class="card-bestseller__user">
+                                    <img class="card-bestseller__user-img" src="./assets/img/user.png" alt="">
+                                    <span class="card-bestseller__user-name">ttgs</span>
+                                </div>
+                                <span class="card-bestseller__name">Holofobia1</span>
+                                <div class="bestseller__price">
+                                    <span class="bestseller__price-cripto">4.70 ETH </span>
+                                    <span class="bestseller__price-converter">($16,873.47)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bestseller">
+                            <div class="card-bestseller__left">
+                                <img class="card-bestseller__img" src="./assets/img/Holofobia-1 1.png" alt="">
+                            </div>
+                            <div class="card-bestseller__right">
+                                <div class="card-bestseller__user">
+                                    <img class="card-bestseller__user-img" src="./assets/img/user.png" alt="">
+                                    <span class="card-bestseller__user-name">ttgs</span>
+                                </div>
+                                <span class="card-bestseller__name">Holofobia1</span>
+                                <div class="bestseller__price">
+                                    <span class="bestseller__price-cripto">4.70 ETH </span>
+                                    <span class="bestseller__price-converter">($16,873.47)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bestseller">
+                            <div class="card-bestseller__left">
+                                <img class="card-bestseller__img" src="./assets/img/Holofobia-1 1.png" alt="">
+                            </div>
+                            <div class="card-bestseller__right">
+                                <div class="card-bestseller__user">
+                                    <img class="card-bestseller__user-img" src="./assets/img/user.png" alt="">
+                                    <span class="card-bestseller__user-name">ttgs</span>
+                                </div>
+                                <span class="card-bestseller__name">Holofobia1</span>
+                                <div class="bestseller__price">
+                                    <span class="bestseller__price-cripto">4.70 ETH </span>
+                                    <span class="bestseller__price-converter">($16,873.47)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
-    </body>
+    </main>
 </body>
 </html>

@@ -1,0 +1,21 @@
+.wrapper__bestsellers{
+    height: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $color-content-dark;
+}
+.bestseller__container{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bestseller__title{
+    margin-right: auto;
+    @include font($family: 'Russo One', $size: 60px, $height: 72.3px);
+    color: white;
+    margin-bottom: 32px;
+}
