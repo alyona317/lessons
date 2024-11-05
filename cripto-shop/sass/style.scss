@@ -10,14 +10,17 @@
 @import "base/timer";
 @import "base/user";
 @import "base/card";
+@import "base/card-bestseller";
 
 //layout
 @import "layouts/wrapper";
 @import "layouts/layout__4";
+@import "layouts/layout-2";
 
 //components
 @import "components/navigation";
 @import "components/intro";
 @import "components/auction";
+@import "components/bestsellers";
 
 

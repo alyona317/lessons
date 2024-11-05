@@ -1,0 +1,62 @@
+.card-bestseller{
+    width: 624px;
+    height: 174px;
+    border-radius: 40px 0px 0px 0px;
+    display: flex;
+}
+.card-bestseller__left{
+    position: relative;
+    background-color: $color-grey-light;
+    width: 142px;
+    border-radius: 40px 0 0 40px;
+}
+.card-bestseller__img{
+    position: absolute;
+    width: 141px;
+    height: 142px;
+    top: 16px;
+    left: 16px;
+    z-index: 1;
+}
+.card-bestseller__right{
+    background-color: white;
+    width: 482px;
+    border-radius: 0 40px 40px 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 32px;
+    gap: 9px;
+
+}
+.card-bestseller__user{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.card-bestseller__user-img{
+
+}
+.card-bestseller__user-name{
+    @include font($size: 16px, $height: 16px);
+    color: $color-content-dark;
+}
+.card-bestseller__name{
+    @include font($size: 48px, $height: 48px);
+    color: $color-content-dark;
+
+}
+.bestseller__price{
+
+}
+.bestseller__price-cripto{
+    @include font($size: 20px, $height: 20px);
+    color: $color-content-dark;
+
+}
+.bestseller__price-converter{
+    @include font($size: 20px, $height: 20px);
+    color: $color-grey;
+}
