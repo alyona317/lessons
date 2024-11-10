@@ -35,7 +35,12 @@
     @include font($size: 16px, $height: 16px);
     color: white;
     background: transparent;
-}
-.slider__button_chosen{
-    background: $color-tag;
+    &:hover{
+        background: #FF6F6F;
+        border: 2px solid #FF6F6F;
+    }
+    &:active{
+        background: $color-tag;
+        border: 2px solid $color-tag;
+    }
 }

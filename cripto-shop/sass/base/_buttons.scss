@@ -4,28 +4,70 @@
     background: $color-button-gradient;
     color: $color-content-dark;
     @include font($size: 20px, $height: 20px);
+    @extend %transition;
+    &:hover{
+        background: $color-primary;
+    }
+    &:active{
+        background: $color-primary-active;
+    }
+
 }
 .button-gradient-border{
-    padding: 20px 49px;
+    width: 296px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 40px;
-    border: 5px solid red;
+    border: 5px solid $color-primary;
     color: white;
     @include font($size: 20px, $height: 20px);
+    @extend %transition;
     box-sizing: border-box;
+    &:hover{
+         background: $color-button-gradient;
+         color: $color-content-dark;
+    }
+    &:active{
+        background: $color-primary-active;
+    }
 }
 .button-color-border{
-    padding: 20px 49px;
+    width: 296px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 40px;
     border: 5px solid $color-primary;
     color: $color-content-dark;
     @include font($size: 20px, $height: 20px);
-    box-sizing: border-box
+    @extend %transition;
+    box-sizing: border-box;
+    &:hover{
+         background: $color-primary;
+    }
+    &:active{
+        background: $color-primary-active;
+        border: 5px solid $color-primary-active;
+    }
 }
 .button{
-    padding: 25px 74px;
+    width: 296px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 40px;
     background-color:  $color-primary;
     @include font($size: 20px, $height: 20px);
+    @extend %transition;
     color: $color-content-dark;
-
+    &:hover{
+         background: $color-button-gradient;
+    }
+    &:active{
+        background: $color-primary-active;
+    }
 }

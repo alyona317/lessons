@@ -1,0 +1,53 @@
+.send-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.send-form__attach{
+    width: 624px;
+    height: 342px;
+    border-radius: 40px;
+    // background-color: ;
+    background-color: $color-grey-light;
+    background-image: url('/lessons/cripto-shop/assets/img/+.png'), url('/lessons/cripto-shop/assets/img/Ellipse-3-2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 98px 262px, 128px 292px;
+    &:hover{
+        background: url(/lessons/cripto-shop/assets/img/+\ h.png), url(/lessons/cripto-shop/assets/img/Ellipse\ h.png);
+    }
+    &:active{
+        background: url(/lessons/cripto-shop/assets/img/+\ a.png), url(/lessons/cripto-shop/assets/img/Ellipse\ a.png);
+    position: relative;
+    }
+}
+
+.send-form__text{
+    position: absolute;
+    top: 214px;
+    left: 155px;
+    @include font($size: 20px, $height: 30px, $weight: 400);
+    color: $color-grey-dark;
+}
+
+.send-form__telegram{
+    width: 624px;
+    height: 70px;
+    padding: 10px 10px 10px 32px;
+    border-radius: 40px;
+    background-color: $color-grey-light;
+    border: 2px solid $color-grey-light;
+    color: #ffffff;
+    @include font($size: 20px, $height: 20px, $weight: 400);
+    &:focus{
+    background-color: transparent;
+    color: $color-content-dark;
+    outline: none;
+    }
+}
+.send-form__telegram::placeholder{
+    color: $color-grey-dark;
+    @include font($size: 20px, $height: 20px, $weight: 400);
+}
+
