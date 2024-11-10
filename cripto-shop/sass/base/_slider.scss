@@ -1,0 +1,41 @@
+.slider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.slider__content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.slider__img-1 .slider__img-2 {
+    width: 300px;
+    height: 300px;
+}
+.slider__img-3{
+    width: 624px;
+    height: 300px;
+
+}
+.slider__buttons{
+    display: flex;
+    gap: 20px;
+
+}
+.slider__button{
+    padding: 10px 23px;
+    border-radius: 40px;
+    border: 2px solid $color-tag;
+    @include font($size: 16px, $height: 16px);
+    color: white;
+    background: transparent;
+}
+.slider__button_chosen{
+    background: $color-tag;
+}

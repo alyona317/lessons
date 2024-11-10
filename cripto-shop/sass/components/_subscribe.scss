@@ -1,0 +1,72 @@
+.subscribe{
+    background-color: $color-tag;
+}
+.subscribe__container{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0 31px 0;
+}
+.stickers__subscribe-title{
+    color: white;
+    @include font($family: 'Russo One', $size: 20px, $height: 24.1px, $weight: 400);
+    margin-bottom: 32px;
+}
+.subscribe__content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+.subscribe__form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;    
+}
+.subscribe__input{
+    width: 460px;
+    height: 70px;
+    padding: 10px 10px 10px 32px;
+    border-radius: 40px;
+    background-color: $color-content-dark;
+    outline: none;
+    border: none;
+}
+.subscribe__input::placeholder{
+    color: $color-grey-light;
+    @include font($size: 20px, $height: 20px, $weight: 400);
+}
+.subscribe__agree{
+    display: flex;
+    align-items: center;
+}
+.subscribe__checkbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+}
+.subscribe__checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  gap: 8px;
+}
+.subscribe__checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+background-repeat: no-repeat;
+  background-position: center center;
+}
+.subscribe__checkbox:checked+label::before {
+  background-image: url("/lessons/cripto-shop/assets/img/Rectangle\ 44.png");
+}
+.subscribe__checkbox-text{
+    color: white;
+    @include font($size: 12px, $height: 12px);
+}

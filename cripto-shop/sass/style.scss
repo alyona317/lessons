@@ -11,6 +11,7 @@
 @import "base/user";
 @import "base/card";
 @import "base/card-bestseller";
+@import "base/slider";
 
 //layout
 @import "layouts/wrapper";
@@ -22,5 +23,6 @@
 @import "components/intro";
 @import "components/auction";
 @import "components/bestsellers";
-
+@import "components/stickers";
+@import "components/subscribe";
 

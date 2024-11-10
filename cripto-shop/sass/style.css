@@ -722,6 +722,52 @@ a {
   color: #95959D;
 }
 
+.slider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.slider__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider__img-1 .slider__img-2 {
+  width: 300px;
+  height: 300px;
+}
+
+.slider__img-3 {
+  width: 624px;
+  height: 300px;
+}
+
+.slider__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.slider__button {
+  padding: 10px 23px;
+  border-radius: 40px;
+  border: 2px solid #D13130;
+  font-family: "Muller";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: white;
+  background: transparent;
+}
+
+.slider__button_chosen {
+  background: #D13130;
+}
+
 .wrapper {
   width: 100%;
   display: flex;
@@ -952,6 +998,123 @@ a {
   line-height: 72.3px;
   color: white;
   margin-bottom: 32px;
+}
+
+.stickers {
+  background-color: #07060B;
+  height: 684px;
+}
+
+.stickers__container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 0;
+}
+
+.stickers__title {
+  margin-right: auto;
+  font-family: "Russo One";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72.3px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.subscribe {
+  background-color: #D13130;
+}
+
+.subscribe__container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 0 31px 0;
+}
+
+.stickers__subscribe-title {
+  color: white;
+  font-family: "Russo One";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.1px;
+  margin-bottom: 32px;
+}
+
+.subscribe__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subscribe__input {
+  width: 460px;
+  height: 70px;
+  padding: 10px 10px 10px 32px;
+  border-radius: 40px;
+  background-color: #07060B;
+  outline: none;
+  border: none;
+}
+
+.subscribe__input::placeholder {
+  color: #EDEDF2;
+  font-family: "Muller";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.subscribe__agree {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.subscribe__checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  gap: 8px;
+}
+
+.subscribe__checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.subscribe__checkbox:checked + label::before {
+  background-image: url("/lessons/cripto-shop/assets/img/Rectangle 44.png");
+}
+
+.subscribe__checkbox-text {
+  color: white;
+  font-family: "Muller";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

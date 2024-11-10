@@ -1,0 +1,19 @@
+.stickers{
+    background-color: $color-content-dark;
+    height: 684px;
+}
+.stickers__container{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+        
+}
+.stickers__title{
+    margin-right: auto;
+    @include font($family: 'Russo One', $size: 60px, $height: 72.3px);
+    color: white;
+    margin-bottom: 32px;
+}
